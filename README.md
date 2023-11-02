@@ -2,7 +2,8 @@
 
 Dieses Projekt basiert auf dem Blogartikel "[Internet Radiowecker mit Touchscreen](https://www.az-delivery.de/blogs/azdelivery-blog-fur-arduino-und-raspberry-pi/internet-radiowecker-mit-touchscreen)" von Gerald Lechner / Az-Delivery. 
 
-beabel hat dieses Projekt erweitert und angepasst. 
+beabel/radiowecker hat dieses Projekt erweitert und angepasst.
+https://github.com/beabel/radiowecker 
 
 Die wesentlichen Änderungen umfassen:
 
