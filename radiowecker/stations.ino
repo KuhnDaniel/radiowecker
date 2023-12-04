@@ -5,30 +5,12 @@
 
 //Definition of a set of tested default stations
 Station defstations[DEFAULTSTATIONS] PROGMEM = {
-{"http://stream01.zogl.net:8906/stream","Radino",1},
-{"http://radio.toggo.de/live/mp3-192/radio.toggo.de/","Toggo",1},
-{"http://streams.radiobob.de/bob-national/mp3-192/mediaplayer","BOB",1},
-{"http://stream.laut.fm/hoerspiel","Hörspiele",1},
-{"http://stream.laut.fm/jugend_radio","Jugend",1},
-{"http://646.cloudrad.io:8234","Strobe",1},
-{"http://646.cloudrad.io:8276","Pulse107",1},
-{"http://646.cloudrad.io:8314","DJ Perry",1},
-{"http://dispatcher.rndfnk.com/hr/hr3/live/mp3/48/stream.mp3","Hessen3",0},
-{"http://stream.antenne.de/antenne","Antenne Bayern",0},
-{"http://stream.1a-webradio.de/saw-deutsch/","Radio 1A Deutsche Hits",0},
-{"http://stream.1a-webradio.de/saw-rock/","Radio 1A Rock",0},
-{"http://streams.80s80s.de/ndw/mp3-192/streams.80s80s.de/","Neue Deutsche Welle",0},
-{"http://dispatcher.rndfnk.com/br/brklassik/live/mp3/low","Bayern Klassik",0},
-{"http://mdr-284280-1.cast.mdr.de/mdr/284280/1/mp3/low/stream.mp3","MDR",0},
-{"http://icecast.ndr.de/ndr/njoy/live/mp3/128/stream.mp3","N-JOY",0},
-{"http://dispatcher.rndfnk.com/rbb/rbb888/live/mp3/mid","RBB",0},
-{"http://dispatcher.rndfnk.com/rbb/antennebrandenburg/live/mp3/mid","Antenne Brandenburg",0},
-{"http://wdr-wdr3-live.icecastssl.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3","WDR3",0},
-{"http://wdr-wdr2-aachenundregion.icecastssl.wdr.de/wdr/wdr2/aachenundregion/mp3/128/stream.mp3","WDR 2",0},
-{"http://rnrw.cast.addradio.de/rnrw-0182/deinschlager/low/stream.mp3","NRW Schlagerradio",0},
-{"http://rnrw.cast.addradio.de/rnrw-0182/deinrock/low/stream.mp3","NRW Rockradio",0},
-{"http://rnrw.cast.addradio.de/rnrw-0182/dein90er/low/stream.mp3","NRW 90er",0},
-{"http://mp3.hitradiort1.c.nmdn.net/rt1rockwl/livestream.mp3","RT1 Rock",0}};
+{"http://streams.radiobob.de/rockoldies/mp3-192/mediaplayer","BOB Rock Oldies",1},
+{"http://streams.radiobob.de/bob-kuschelrock/mp3-192/mediaplayer","BOB Kuschelrock",1},
+{"http://streams.radiobob.de/southernrock/mp3-192/mediaplayer","BOB Southern Rock",1},
+{"http://streams.radiobob.de/blues/mp3-192","BOB Blues",1},
+{"http://stream.srg-ssr.ch/m/drs1/mp3_128","DRS1",1},
+{"http://stream.srg-ssr.ch/m/rsp/mp3_128","Swiss Pop",1}};
 
 //fill the station list from preferences. If an entry not exists the default list will be used
 void setup_senderList() {
